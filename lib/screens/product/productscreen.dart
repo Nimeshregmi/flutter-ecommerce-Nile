@@ -41,7 +41,7 @@ class ProductScreen extends StatelessWidget {
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     const SizedBox(height: 10,),
-                    
+                  
                     Text('\$2${products.price.toString()}',style:Theme.of(context).textTheme.displayMedium ,)
                   ],
                                ),

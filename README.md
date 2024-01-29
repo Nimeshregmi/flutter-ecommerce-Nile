@@ -1,16 +1,12 @@
-# nile
+# Project Title
 
-A new Flutter project.
+This is the flutter app developed by Nimesh Regmi. It is ecommerce app with bloc as state management tool.
+## 🚀 About Me
+I'm a full stack developer web and flutter developer.
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+## 🔗 Links
 
-A few resources to get you started if this is your first Flutter project:
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nimesh-regmi-699047218/)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
