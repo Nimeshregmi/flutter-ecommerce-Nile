@@ -1,4 +1,6 @@
 export 'package:flutter/material.dart';
+// ignore: depend_on_referenced_packages
+export 'package:carousel_slider/carousel_slider.dart';
 
 export 'homescreen/homescreen.dart';
 
