@@ -1,8 +1,6 @@
 
 import 'package:nile/models/models.dart';
 import 'package:nile/screens/screens.dart';
-// ignore: depend_on_referenced_packages
-import 'package:carousel_slider/carousel_slider.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});

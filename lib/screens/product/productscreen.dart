@@ -1,4 +1,3 @@
-import 'package:nile/config/theme.dart';
 import 'package:nile/models/models.dart';
 import 'package:nile/screens/screens.dart';
 
@@ -20,36 +19,17 @@ class ProductScreen extends StatelessWidget {
         title: products.name,
       ),
       bottomNavigationBar: const CustomNavbar(),
-      body: SingleChildScrollView(
-        child: Padding(
-          padding: const EdgeInsets.all(17.0),
-          child: Column(
-            crossAxisAlignment: CrossAxisAlignment.start,
-            children: [
-              Center(
-                child: SizedBox(
-                    height: MediaQuery.of(context).size.height / 2,
-                    child: Image.network(
-                      products.imageUrl,
-                      fit: BoxFit.cover,
-                    )),
+      body: CarouselSlider(
+              options: CarouselOptions(
+                aspectRatio: 1.5,
+                viewportFraction: 0.9,
+                enlargeCenterPage: true,
+                enlargeStrategy: CenterPageEnlargeStrategy.height,
+                // autoPlay: true,
               ),
-               Padding(
-                 padding: const EdgeInsets.symmetric(horizontal: 28.0),
-                 child: Column(
-                  mainAxisAlignment: MainAxisAlignment.start,
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: [
-                    const SizedBox(height: 10,),
-                  
-                    Text('\$2${products.price.toString()}',style:Theme.of(context).textTheme.displayMedium ,)
-                  ],
-                               ),
-               )
-            ],
-          ),
-        ),
-      ),
+              items:  [HeroSlider(product
+              : products)],
+            ),
     );
   }
 }
