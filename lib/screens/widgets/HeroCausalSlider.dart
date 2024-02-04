@@ -1,3 +1,4 @@
+// ignore: file_names
 import 'package:flutter/material.dart';
 import 'package:nile/models/models.dart';
 
@@ -34,7 +35,7 @@ class HeroSlider extends StatelessWidget {
                       ),
                     ),
                     padding: const EdgeInsets.symmetric(vertical: 10.0, horizontal: 20.0),
-                    child: Text(product==null?category!.name:product!.name, style: Theme.of(context).textTheme.displayMedium!.copyWith(color: Colors.white)),
+                    child: Text(product==null?category!.name:"", style: Theme.of(context).textTheme.displayMedium!.copyWith(color: Colors.white)),
                   ),
                 ),
               ],

@@ -1,5 +1,4 @@
 
-import 'package:nile/models/category_models.dart';
 import 'package:nile/models/models.dart';
 import 'package:nile/screens/screens.dart';
 

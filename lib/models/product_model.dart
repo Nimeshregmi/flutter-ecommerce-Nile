@@ -1,4 +1,4 @@
-// ignore: unused_import
+// ignore: unused_import, depend_on_referenced_packages
 import 'package:equatable/equatable.dart';
 
 class Product extends Equatable {
