@@ -1,5 +1,7 @@
 export 'package:flutter/material.dart';
 // ignore: depend_on_referenced_packages
+export 'package:flutter_bloc/flutter_bloc.dart';
+// ignore: depend_on_referenced_packages
 export 'package:carousel_slider/carousel_slider.dart';
 
 export 'homescreen/homescreen.dart';
